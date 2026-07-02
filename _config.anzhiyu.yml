@@ -447,7 +447,7 @@ footer:
         link: https://github.com/h-k-c
         icon: anzhiyu-icon-github
   list:
-    enable: true
+    enable: false
     randomFriends: 0
     project:
       - title: 本站
