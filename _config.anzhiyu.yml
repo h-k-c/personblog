@@ -52,9 +52,9 @@ code_word_wrap: false
 # copyright: Add the copyright information after copied content (複制的内容后面加上版权信息)
 # copy: enable 复制后弹窗提示版权信息
 copy:
-  enable: true
+  enable: false
   copyright:
-    enable: true
+    enable: false
     limit_count: 50
 
 # social settings (社交图标设置)
@@ -232,7 +232,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
