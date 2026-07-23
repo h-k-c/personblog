@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="200" fill="#f8fafc" rx="12"/>
+  
+  <!-- Step 1: 本地开发 -->
+  <rect x="30" y="50" width="160" height="100" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="110" y="90" text-anchor="middle" font-size="24">💻</text>
+  <text x="110" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">本地开发</text>
+  <text x="110" y="135" text-anchor="middle" font-size="12" fill="#64748b">编写代码</text>
+
+  <!-- Arrow 1 -->
+  <line x1="190" y1="100" x2="240" y2="100" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="215" y="88" text-anchor="middle" font-size="11" fill="#64748b">git push</text>
+
+  <!-- Step 2: GitHub -->
+  <rect x="245" y="50" width="160" height="100" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="325" y="90" text-anchor="middle" font-size="24">🐙</text>
+  <text x="325" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">GitHub</text>
+  <text x="325" y="135" text-anchor="middle" font-size="12" fill="#64748b">推送代码</text>
+
+  <!-- Arrow 2 -->
+  <line x1="405" y1="100" x2="455" y2="100" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="430" y="88" text-anchor="middle" font-size="11" fill="#64748b">Webhook</text>
+
+  <!-- Step 3: Cloudflare -->
+  <rect x="460" y="50" width="160" height="100" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <text x="540" y="90" text-anchor="middle" font-size="24">☁️</text>
+  <text x="540" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#9a3412">Cloudflare</text>
+  <text x="540" y="135" text-anchor="middle" font-size="12" fill="#64748b">自动构建部署</text>
+
+  <!-- Arrow 3 -->
+  <line x1="620" y1="100" x2="670" y2="100" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="645" y="88" text-anchor="middle" font-size="11" fill="#64748b">分发</text>
+
+  <!-- Step 4: 全球 CDN -->
+  <rect x="675" y="50" width="160" height="100" rx="10" fill="#faf5ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="755" y="90" text-anchor="middle" font-size="24">🌍</text>
+  <text x="755" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">全球 CDN</text>
+  <text x="755" y="135" text-anchor="middle" font-size="12" fill="#64748b">网站上线</text>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">Cloudflare Pages 部署流程</text>
+
+  <!-- Bottom stats -->
+  <text x="450" y="180" text-anchor="middle" font-size="12" fill="#94a3b8">330+ 城市 · 120+ 国家 · 290+ 互联网络 · &lt;50ms 全球平均延迟</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
