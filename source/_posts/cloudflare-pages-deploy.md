@@ -20,7 +20,7 @@ tags:
 
 ### 总体流程
 
-{% asset_img deploy-flow.svg Cloudflare Pages 部署流程 %}
+{% asset_img deploy-flow.png Cloudflare Pages 部署流程 %}
 
 整个部署流程分为四步：**本地开发** → **推送代码到 GitHub** → **Cloudflare 自动构建部署** → **全球 CDN 分发上线**。之后每次 `git push` 都会自动触发这一链路，无需手动操作。
 
